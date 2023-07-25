@@ -1,0 +1,31 @@
+# This file is for unifying the coding style for different editors and IDEs
+# https://editorconfig.org
+
+root = true
+
+# All files
+[*]
+# Force charset utf-8
+charset = utf-8
+# Force end of line to be LF
+end_of_line = lf
+# Indentation
+indent_size = 2
+indent_style = space
+# line breaks and whitespace
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
+
+# yml, yaml files and package.json
+[{*.yml,*.yaml,package.json}]
+indent_style = space
+indent_size = 2
+
+# Don't wrap lines for Git commit messages
+[COMMIT_EDITMSG]
+max_line_length = 0
