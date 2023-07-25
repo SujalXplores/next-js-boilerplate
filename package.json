@@ -1,0 +1,36 @@
+{
+  "name": "next-js-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "next.js",
+    "tailwindcss",
+    "eslint",
+    "boilerplate"
+  ],
+  "description": "Next.js boilerplate with Tailwind CSS, ESLint",
+  "engines": {
+    "node": ">=18.12.0",
+    "vscode": ">=1.80.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "eslint": "8.45.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-next": "12.1.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "postcss": "8.4.27",
+    "tailwindcss": "3.3.3"
+  }
+}
