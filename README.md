@@ -1,34 +1,103 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Boilerplate
 
-## Getting Started
+A modern, feature-rich boilerplate for Next.js projects with Tailwind CSS and ESLint integration.
 
-First, run the development server:
+![Next.js Boilerplate Demo](https://placehold.co/800x400/3B82F6/FFFFFF.gif?text=Next.js+Boilerplate&font=raleway)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## 🚀 Features
+
+- ⚡ **Next.js 14** - For fast, server-side rendering and static site generation
+- 🎨 **Tailwind CSS** - A utility-first CSS framework for rapid UI development
+- 📏 **ESLint** - Pluggable JavaScript linter
+- 🐶 **Husky** - Use git hooks with ease
+- 🧩 **Modular Architecture** - Organized project structure for scalability
+- 🔧 **Customizable** - Easy to customize and extend
+
+## 🛠 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SujalShah3234/next-js-boilerplate.git
+   cd next-js-boilerplate
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📁 Project Structure
+
+```
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   └── globals.css
+├── public/
+├── .husky/
+├── .vscode/
+├── node_modules/
+├── .editorconfig
+├── .eslintrc.json
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── postcss.config.js
+├── README.md
+├── renovate.json
+└── tailwind.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Key Features in Action
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 1. Responsive Design with Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Responsive Design Demo](https://placehold.co/800x400/22C55E/FFFFFF.gif?text=Responsive+Design&font=raleway)
 
-## Learn More
+Tailwind CSS allows for rapid, responsive UI development. This demo shows the home page adapting to different screen sizes.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. ESLint Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![ESLint Integration Demo](https://placehold.co/800x400/EAB308/FFFFFF.gif?text=ESLint+Integration&font=raleway)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This GIF demonstrates real-time linting in action, showing how ESLint catches and helps fix code style issues.
 
-## Deploy on Vercel
+### 3. Fast Refresh with Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Fast Refresh Demo](https://placehold.co/800x400/EC4899/FFFFFF.gif?text=Fast+Refresh&font=raleway)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Showcase the fast refresh feature of Next.js, demonstrating how changes in the code are instantly reflected in the browser without losing component state.
+
+## 🔧 Configuration
+
+### ESLint
+
+The project uses a custom ESLint configuration. You can find and modify the rules in `.eslintrc.json`.
+
+### Tailwind CSS
+
+Tailwind is configured in `tailwind.config.js`. You can extend the default configuration here.
+
+## 📚 Learn More
+
+To learn more about the technologies used in this boilerplate, check out the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [ESLint Documentation](https://eslint.org/docs/user-guide/getting-started)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
