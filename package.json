@@ -22,7 +22,7 @@
     "lint:fixAll": "npm run lint -- --fix"
   },
   "dependencies": {
-    "next": "14.2.14",
+    "next": "15.0.1",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -30,7 +30,7 @@
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-config-next": "14.2.14",
+    "eslint-config-next": "15.0.1",
     "eslint-plugin-react-hooks": "4.6.2",
     "husky": "9.1.6",
     "postcss": "8.4.47",
