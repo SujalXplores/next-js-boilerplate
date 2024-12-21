@@ -22,7 +22,7 @@
     "lint:fixAll": "npm run lint -- --fix"
   },
   "dependencies": {
-    "next": "14.2.14",
+    "next": "14.2.15",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
