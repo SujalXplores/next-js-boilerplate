@@ -56,5 +56,6 @@
   "prettier.singleQuote": true,
   "scss.lint.duplicateProperties": "warning",
   "scss.lint.emptyRules": "warning",
-  "workbench.editor.highlightModifiedTabs": true
+  "workbench.editor.highlightModifiedTabs": true,
+  "cSpell.words": ["EDITMSG", "turbopack", "vercel"]
 }
