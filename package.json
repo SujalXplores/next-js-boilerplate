@@ -34,7 +34,7 @@
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "autoprefixer": "10.4.20",
-    "babel-plugin-react-compiler": "19.0.0-beta-b2e8e9c-20241220",
+    "babel-plugin-react-compiler": "19.0.0-beta-df7b47d-20241124",
     "husky": "9.1.7",
     "lint-staged": "15.3.0",
     "postcss": "8.4.49",
