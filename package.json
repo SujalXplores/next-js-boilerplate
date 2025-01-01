@@ -2,13 +2,8 @@
   "name": "next-js-boilerplate",
   "version": "1.0.0",
   "private": true,
-  "keywords": [
-    "next.js",
-    "tailwindcss",
-    "eslint",
-    "boilerplate"
-  ],
-  "description": "Next.js boilerplate with Tailwind CSS, ESLint",
+  "keywords": ["next.js", "tailwindcss", "biome", "boilerplate"],
+  "description": "Next.js boilerplate with Tailwind CSS, Biome",
   "engines": {
     "node": ">=22"
   },

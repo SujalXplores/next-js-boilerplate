@@ -1,34 +1,34 @@
 {
   "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "css.lint.duplicateProperties": "warning",
   "css.lint.emptyRules": "warning",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "quickfix.biome": "explicit"
   },
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
@@ -39,21 +39,12 @@
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "eslint.codeActionsOnSave.mode": "all",
-  "eslint.enable": true,
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "eslint.options": {
-    "ignore": false
-  },
-  "eslint.run": "onSave",
   "extensions.ignoreRecommendations": false,
   "files.eol": "\n",
   "javascript.preferences.quoteStyle": "single",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.lint.duplicateProperties": "warning",
   "less.lint.emptyRules": "warning",
-  "prettier.singleQuote": true,
   "scss.lint.duplicateProperties": "warning",
   "scss.lint.emptyRules": "warning",
   "workbench.editor.highlightModifiedTabs": true,
