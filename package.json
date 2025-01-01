@@ -2,7 +2,12 @@
   "name": "next-js-boilerplate",
   "version": "1.0.0",
   "private": true,
-  "keywords": ["next.js", "tailwindcss", "biome", "boilerplate"],
+  "keywords": [
+    "next.js",
+    "tailwindcss",
+    "biome",
+    "boilerplate"
+  ],
   "description": "Next.js boilerplate with Tailwind CSS, Biome",
   "engines": {
     "node": ">=22"
@@ -25,11 +30,11 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@tailwindcss/typography": "0.5.15",
-    "@types/node": "22.10.2",
+    "@types/node": "22.10.3",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "autoprefixer": "10.4.20",
-    "babel-plugin-react-compiler": "19.0.0-beta-df7b47d-20241124",
+    "babel-plugin-react-compiler": "19.0.0-beta-55955c9-20241229",
     "husky": "9.1.7",
     "lint-staged": "15.3.0",
     "postcss": "8.4.49",
