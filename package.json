@@ -36,7 +36,7 @@
     "autoprefixer": "10.4.20",
     "babel-plugin-react-compiler": "19.0.0-beta-e552027-20250112",
     "husky": "9.1.7",
-    "lint-staged": "15.3.0",
+    "lint-staged": "15.4.0",
     "postcss": "8.5.1",
     "tailwindcss": "3.4.17",
     "tailwindcss-animate": "1.0.7",
