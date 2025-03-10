@@ -33,7 +33,7 @@
     "@types/node": "22.13.5",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
-    "autoprefixer": "10.4.20",
+    "autoprefixer": "10.4.21",
     "babel-plugin-react-compiler": "19.0.0-beta-e552027-20250112",
     "husky": "9.1.7",
     "lint-staged": "15.4.3",
