@@ -25,6 +25,8 @@
   },
   "css.lint.duplicateProperties": "warning",
   "css.lint.emptyRules": "warning",
+  "css.lint.unknownAtRules": "ignore",
+  "css.customData": ["./.vscode/css-custom-data.json"],
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
