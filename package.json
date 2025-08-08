@@ -37,7 +37,7 @@
     "@types/react-dom": "19.1.7",
     "babel-plugin-react-compiler": "19.0.0-beta-af1b7da-20250417",
     "husky": "9.1.7",
-    "lint-staged": "16.1.2",
+    "lint-staged": "16.1.5",
     "postcss": "8.5.6",
     "tailwindcss": "4.1.11",
     "tailwindcss-animate": "1.0.7",
