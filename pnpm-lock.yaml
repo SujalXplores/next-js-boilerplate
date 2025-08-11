@@ -13,7 +13,7 @@ importers:
         version: 0.0.25
       next:
         specifier: 15.4.6
-        version: 15.4.6(babel-plugin-react-compiler@19.0.0-beta-af1b7da-20250417)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 15.4.6(babel-plugin-react-compiler@19.0.0-beta-ebf51a3-20250411)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       next-themes:
         specifier: 0.4.6
         version: 0.4.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -43,8 +43,8 @@ importers:
         specifier: 19.1.7
         version: 19.1.7(@types/react@19.1.9)
       babel-plugin-react-compiler:
-        specifier: 19.0.0-beta-af1b7da-20250417
-        version: 19.0.0-beta-af1b7da-20250417
+        specifier: 19.0.0-beta-ebf51a3-20250411
+        version: 19.0.0-beta-ebf51a3-20250411
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -455,8 +455,8 @@ packages:
     resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
 
-  babel-plugin-react-compiler@19.0.0-beta-af1b7da-20250417:
-    resolution: {integrity: sha512-UyTCRmzpxa4H1EqJk8fWeUOzHdEA12NQZ5DrF5hyhCs+Y6f7B4pg1fkul49sRn9GPPGFgkrH4IxOtnQJ7tNXIA==}
+  babel-plugin-react-compiler@19.0.0-beta-ebf51a3-20250411:
+    resolution: {integrity: sha512-q84bNR9JG1crykAlJUt5Ud0/5BUyMFuQww/mrwIQDFBaxsikqBDj3f/FNDsVd2iR26A1HvXKWPEIfgJDv8/V2g==}
 
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
@@ -1227,7 +1227,7 @@ snapshots:
 
   ansi-styles@6.2.1: {}
 
-  babel-plugin-react-compiler@19.0.0-beta-af1b7da-20250417:
+  babel-plugin-react-compiler@19.0.0-beta-ebf51a3-20250411:
     dependencies:
       '@babel/types': 7.26.3
 
@@ -1491,7 +1491,7 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
-  next@15.4.6(babel-plugin-react-compiler@19.0.0-beta-af1b7da-20250417)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  next@15.4.6(babel-plugin-react-compiler@19.0.0-beta-ebf51a3-20250411)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       '@next/env': 15.4.6
       '@swc/helpers': 0.5.15
@@ -1509,7 +1509,7 @@ snapshots:
       '@next/swc-linux-x64-musl': 15.4.6
       '@next/swc-win32-arm64-msvc': 15.4.6
       '@next/swc-win32-x64-msvc': 15.4.6
-      babel-plugin-react-compiler: 19.0.0-beta-af1b7da-20250417
+      babel-plugin-react-compiler: 19.0.0-beta-ebf51a3-20250411
       sharp: 0.34.3
     transitivePeerDependencies:
       - '@babel/core'
