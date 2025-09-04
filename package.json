@@ -32,7 +32,7 @@
     "@biomejs/biome": "2.2.2",
     "@tailwindcss/postcss": "4.1.12",
     "@tailwindcss/typography": "0.5.16",
-    "@types/node": "24.3.0",
+    "@types/node": "24.3.1",
     "@types/react": "19.1.11",
     "@types/react-dom": "19.1.8",
     "babel-plugin-react-compiler": "19.0.0-beta-af1b7da-20250417",
