@@ -1,0 +1,86 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+      - duplicate
+      - invalid
+      - wontfix
+    authors:
+      - dependabot
+      - dependabot[bot]
+      - renovate[bot]
+      - github-actions[bot]
+
+  categories:
+    - title: 🚀 New Features
+      labels:
+        - feature
+        - enhancement
+        - feat
+        - new-feature
+
+    - title: 🐛 Bug Fixes
+      labels:
+        - bug
+        - fix
+        - bugfix
+        - hotfix
+
+    - title: 📚 Documentation
+      labels:
+        - documentation
+        - docs
+
+    - title: 🧹 Code Refactoring
+      labels:
+        - refactor
+        - refactoring
+        - cleanup
+
+    - title: ⚡ Performance Improvements
+      labels:
+        - performance
+        - perf
+        - optimization
+
+    - title: 🔧 Maintenance & Updates
+      labels:
+        - chore
+        - maintenance
+        - deps
+        - dependencies
+
+    - title: 🎨 Style & UI Changes
+      labels:
+        - style
+        - ui
+        - design
+        - css
+
+    - title: 🧪 Tests
+      labels:
+        - test
+        - tests
+        - testing
+
+    - title: 🔒 Security
+      labels:
+        - security
+        - vulnerability
+
+    - title: ⚠️ Breaking Changes
+      labels:
+        - breaking-change
+        - breaking
+        - major
+
+    - title: 📦 Dependencies
+      labels:
+        - dependencies
+        - deps
+        - npm
+        - pnpm
+
+    - title: 🔀 Other Changes
+      labels:
+        - "*"
