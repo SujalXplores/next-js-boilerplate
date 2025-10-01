@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
-    "@tailwindcss/postcss": "4.1.13",
+    "@tailwindcss/postcss": "4.1.14",
     "@tailwindcss/typography": "0.5.18",
     "@types/node": "24.5.2",
     "@types/react": "19.1.13",
@@ -39,7 +39,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.1.6",
     "postcss": "8.5.6",
-    "tailwindcss": "4.1.13",
+    "tailwindcss": "4.1.14",
     "tailwindcss-animate": "1.0.7",
     "typescript": "5.9.2"
   },
