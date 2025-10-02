@@ -21,6 +21,7 @@ const nextConfig: NextConfig = {
     optimizeCss: true,
     cssChunking: true,
     inlineCss: true,
+    typedEnv: true,
   },
   typedRoutes: true,
   poweredByHeader: false,
