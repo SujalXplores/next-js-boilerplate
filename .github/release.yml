@@ -6,8 +6,6 @@ changelog:
       - invalid
       - wontfix
     authors:
-      - dependabot
-      - dependabot[bot]
       - renovate[bot]
       - github-actions[bot]
 
