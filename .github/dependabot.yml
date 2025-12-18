@@ -1,0 +1,4 @@
+# Dependabot is disabled in favor of Renovate Bot
+# See renovate.json for dependency update configuration
+version: 2
+updates: []
