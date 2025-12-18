@@ -2,14 +2,21 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "schedule": ["at any time"],
-  "platformAutomerge": true,
+  "rebaseWhen": "conflicted",
+  "dependencyDashboard": true,
   "packageRules": [
     {
+      "description": "Automerge patch and minor updates directly to branch",
+      "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true,
-      "automergeType": "pr",
-      "automergeStrategy": "squash",
-      "ignoreTests": false,
+      "automergeType": "branch"
+    },
+    {
+      "description": "Major updates require manual review via PR",
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
       "prCreation": "immediate"
     }
   ]
