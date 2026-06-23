@@ -16,8 +16,8 @@ const cspHeader = `
 const nextConfig: NextConfig = {
   compress: true,
   reactStrictMode: true,
+  reactCompiler: true,
   experimental: {
-    reactCompiler: true,
     optimizeCss: true,
     cssChunking: true,
     inlineCss: true,
